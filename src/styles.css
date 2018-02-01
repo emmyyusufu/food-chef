@@ -1,0 +1,475 @@
+* {
+    font-family: 'Lato', Arial, Helvetica, sans-serif
+}
+
+.navbar {
+    background-color: #000 !important;
+    opacity: 0.6;
+    color: #fff;
+}
+
+.navbar>* {
+    color: #fff;
+}
+
+.navbar .navbar-brand, .navbar .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+}
+
+button.navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.carousel {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #191919;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.carousel-indicators .active {
+    background-color: orangered;
+}
+
+.slide img {
+    opacity: 0.6;
+    object-fit: cover;
+
+}
+
+.carousel-control-prev, .carousel-control-next {
+    max-height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: auto;
+    bottom: 36vh;
+    left: 14.5%;
+    z-index: 10;
+    color: #fff;
+    text-align: left;
+    max-width: 500px;
+    letter-spacing: 2px;
+}
+
+.carousel-caption h1 {
+    text-transform: uppercase; 
+    padding-bottom: 20px;
+}
+
+.carousel-caption p {
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+.carousel-caption button {
+    width: 150px;
+    height: 45px;
+    border-radius: 0px;
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.carousel-caption button:after {
+    content: '';
+    height: 2px;
+    width: 125px;
+    background-color: #fff !important;
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    top: -10px;
+}
+
+/* .carousel-inner:after {
+    content: "\25C7";
+    font-size: 200px;
+} */
+
+div.scroll span {
+    font-size: 120px;
+    position: absolute;
+    top: 325px;
+    border: 1px;
+}
+
+div.scroll span a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div.scroll span#arrow {
+    font-size: 25px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+
+
+/* 2nd section */
+
+div.about {
+    padding: 75px;
+    text-align: center;
+}
+
+div.about h1 {
+    padding-bottom: 20px;
+}
+
+div.about .accent {
+    color: yellowgreen;
+}
+
+div.about p {
+    padding-bottom: 15px;
+}
+
+div.box {
+   height: 100px;
+}
+
+div.about div.col-md-4 {
+    padding: 2px;
+}
+
+div.box {
+    height: 300px;
+    padding: 2vh;
+    overflow-wrap: break-word;
+}
+
+div.box h3 {
+    color: #000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+div.box p {
+    color: #fff;
+}
+
+.box--green {
+    background-color: #6CDA9D;
+}
+
+.box--blue {
+    background-color: #4AA8EF;
+}
+
+.box--orange {
+    background-color: #DD913C;
+}
+
+.box--picture-one {
+    background-image: url('./images/about1.jpg');
+    background-size: cover;
+}
+
+.box--picture-two {
+    background-image: url('./images/about2.jpg');
+    background-size: cover;
+}
+
+.box--picture-three {
+    background-image: url('./images/about3.jpg');
+    background-size: cover;
+}
+
+
+/* 3rd section */
+
+div.services {
+    padding: 75px;
+}
+
+div.services h1 {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+div.services div.col-md-3 {
+ padding: 0px;
+}
+
+div.service {
+    margin-bottom: 40px;
+}
+
+div.icon {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: yellowgreen;
+}
+
+div.icon i.fa {
+    font-size: 30px;
+}
+
+div.icon span {
+    position: absolute;
+    font-size: 200px;
+    top: -120px;
+    left: 5px;
+}
+
+div.icon span a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.service--bkg-one {
+    max-width: 100%;
+    height: 456px;
+    background-image: url('./images/c1.png');
+    background-size: cover;
+}
+
+.service--bkg-two {
+    height: 228px;
+    background-image: url('./images/service1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.service--bkg-three {
+    height: 228px;
+    background-image: url('./images/service2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* 4th section */
+
+div.team {
+    padding: 75px;
+    text-align: center;
+}
+
+div.team h1 {
+    padding-bottom: 20px;
+}
+
+div.team div.col-md-3 {
+    padding: 5px;
+}
+
+div.team div.mvp {
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+    padding: 0px;
+    border: 5px; 
+    border-top: 5px solid red;
+    border-left: 5px solid red;
+    border-bottom: 5px solid #E8E8E8;
+    border-right: 5px solid #E8E8E8;
+}
+
+div.team div.mvp__1{
+    background-image: url('./images/team1.jpg');
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+div.team div.mvp__2 {
+    background-image: url('./images/team2.jpg');
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+div.team div.mvp__3 {
+    background-image: url('./images/team3.jpg');
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+div.team div.mvp__4 {
+    background-image: url('./images/team4.jpg');
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+
+
+/* 4th section */
+
+div.food {
+    padding: 2px;
+    text-align: center;
+}
+
+div.food .container {
+    width: 100% !important;
+}
+
+div.food div.col-md-3 {
+    padding: 5px;
+}
+
+div.food h1 {
+    padding-bottom: 20px;
+}
+
+div.foodbox {
+    width: 100%;
+    height: 300px;
+    
+    background-color: #000;
+    
+}
+
+body > div.food > div > div:nth-child(2) > div:nth-child(1) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food1.jpg');
+    opacity: 0.6;
+    background-size: cover;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.foodbox span {
+    position: absolute;
+}
+
+body > div.food > div > div:nth-child(2) > div:nth-child(2) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food2.jpg');
+    opacity: 0.6;
+    background-size: cover;
+}
+
+body > div.food > div > div:nth-child(2) > div:nth-child(3) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food3.jpg');
+    opacity: 0.6;
+    background-size: cover;
+}
+
+body > div.food > div > div:nth-child(2) > div:nth-child(4) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food4.jpg');
+    opacity: 0.6;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+body > div.food > div > div:nth-child(3) > div:nth-child(1) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food5.jpg');
+    opacity: 0.6;
+    background-size: cover;
+}
+
+body > div.food > div > div:nth-child(3) > div:nth-child(2) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food6.jpg');
+    opacity: 0.6;
+    background-size: cover;
+}
+
+body > div.food > div > div:nth-child(3) > div:nth-child(3) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food7.jpg');
+    opacity: 0.6;
+    background-size: cover;
+}
+
+body > div.food > div > div:nth-child(3) > div:nth-child(4) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food8.jpg');
+    opacity: 0.6;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+body > div.food > div > div:nth-child(4) > div:nth-child(1) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food9.jpg');
+    opacity: 0.6;
+    background-size: cover;
+}
+
+body > div.food > div > div:nth-child(4) > div:nth-child(2) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food10.jpg');
+    opacity: 0.6;
+    background-size: cover;
+}
+
+body > div.food > div > div:nth-child(4) > div:nth-child(3) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food11.jpg');
+    opacity: 0.6;
+    background-size: cover;
+}
+
+body > div.food > div > div:nth-child(4) > div:nth-child(4) > div > * {
+    width: 100%;
+    height: 300px; 
+    background-image: url('./images/food12.jpg');
+    opacity: 0.6;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
